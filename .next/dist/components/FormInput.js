@@ -43,6 +43,8 @@ var FormInput = function (_React$Component) {
   function FormInput(props) {
     (0, _classCallCheck3.default)(this, FormInput);
 
+    console.log("test");
+
     var _this = (0, _possibleConstructorReturn3.default)(this, (FormInput.__proto__ || (0, _getPrototypeOf2.default)(FormInput)).call(this, props));
 
     _this.state = {
@@ -74,11 +76,11 @@ var FormInput = function (_React$Component) {
       return _react2.default.createElement("div", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 27
+          lineNumber: 28
         }
       }, _react2.default.createElement("form", { onSubmit: this.handleTodoSubmission, __source: {
           fileName: _jsxFileName,
-          lineNumber: 28
+          lineNumber: 29
         }
       }, _react2.default.createElement("input", {
         ref: "_name",
@@ -86,12 +88,12 @@ var FormInput = function (_React$Component) {
         id: "name",
         placeholder: "Name", __source: {
           fileName: _jsxFileName,
-          lineNumber: 29
+          lineNumber: 30
         }
       }), _react2.default.createElement("br", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 34
+          lineNumber: 35
         }
       }), _react2.default.createElement("input", {
         ref: "_description",
@@ -99,21 +101,21 @@ var FormInput = function (_React$Component) {
         id: "description",
         placeholder: "Description", __source: {
           fileName: _jsxFileName,
-          lineNumber: 35
+          lineNumber: 36
         }
       }), _react2.default.createElement("h5", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 40
+          lineNumber: 41
         }
       }, _react2.default.createElement("button", { type: "submit", __source: {
           fileName: _jsxFileName,
-          lineNumber: 40
+          lineNumber: 41
         }
       }, "Add"))), _react2.default.createElement(_TodoList2.default, {
         masterTodoList: this.state.masterTodoList, __source: {
           fileName: _jsxFileName,
-          lineNumber: 42
+          lineNumber: 43
         }
       }));
     }
@@ -123,4 +125,4 @@ var FormInput = function (_React$Component) {
 }(_react2.default.Component);
 
 exports.default = FormInput;
-//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImNvbXBvbmVudHMvRm9ybUlucHV0LmpzIl0sIm5hbWVzIjpbIlJlYWN0IiwiVG9kb0xpc3QiLCJGb3JtSW5wdXQiLCJwcm9wcyIsInN0YXRlIiwibWFzdGVyVG9kb0xpc3QiLCJoYW5kbGVUb2RvU3VibWlzc2lvbiIsImJpbmQiLCJlIiwicHJldmVudERlZmF1bHQiLCJyZWZzIiwiX25hbWUiLCJfZGVzY3JpcHRpb24iLCJuZXdNYXN0ZXJUb2RvTGlzdCIsInNsaWNlIiwidGFzayIsIm5hbWUiLCJ2YWx1ZSIsImRlc2NyaXB0aW9uIiwicHVzaCIsInNldFN0YXRlIiwiQ29tcG9uZW50Il0sIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7OztBQUFBLEFBQU87Ozs7QUFDUCxBQUFPLEFBQWM7Ozs7Ozs7OztJQUVmLEE7cUNBQ0o7O3FCQUFBLEFBQVksT0FBTzt3Q0FBQTs7NElBQUEsQUFDWCxBQUNOOztVQUFBLEFBQUs7c0JBQUwsQUFBYSxBQUNLLEFBRWxCO0FBSGEsQUFDWDtVQUVGLEFBQUssdUJBQXVCLE1BQUEsQUFBSyxxQkFBTCxBQUEwQixLQUxyQyxBQUtqQjtXQUNEOzs7Ozt5Q0FFb0IsQSxHQUFHLEFBQ3RCO1FBRHNCLEFBQ3RCLEFBQUU7a0JBQzhCLEtBRlYsQUFFZTtVQUZmLEFBRWQsY0FGYyxBQUVkO1VBRmMsQUFFUCxxQkFGTyxBQUVQLEFBQ2Y7O1VBQU0sb0JBQW9CLEtBQUEsQUFBSyxNQUFMLEFBQVcsZUFBckMsQUFBMEIsQUFBMEIsQUFDcEQ7VUFBTTtjQUNFLE1BREssQUFDQyxBQUNaO3FCQUFhLGFBRmYsQUFBYSxBQUVlLEFBRTVCO0FBSmEsQUFDWDt3QkFHRixBQUFrQixLQUFsQixBQUF1QixBQUN2QjtXQUFBLEFBQUssU0FBUyxFQUFFLGdCQUFoQixBQUFjLEFBQWtCLEFBQ2pDOzs7OzZCQUVRLEFBQ1A7NkJBQ0UsY0FBQTs7b0JBQUE7c0JBQUEsQUFDRTtBQURGO0FBQUEsT0FBQSxrQkFDRSxjQUFBLFVBQU0sVUFBVSxLQUFoQixBQUFxQjtvQkFBckI7c0JBQUEsQUFDRTtBQURGOzthQUNFLEFBQ00sQUFDSjtjQUZGLEFBRU8sQUFDTDtZQUhGLEFBR0ssQUFDSDtxQkFKRixBQUljO29CQUpkO3NCQURGLEFBQ0UsQUFLQTtBQUxBO0FBQ0U7O29CQUlGO3NCQU5GLEFBTUUsQUFDRTtBQURGO0FBQUE7YUFDRSxBQUNNLEFBQ0o7Y0FGRixBQUVPLEFBQ0w7WUFIRixBQUdLLEFBQ0g7cUJBSkYsQUFJYztvQkFKZDtzQkFQSixBQU9JLEFBS0E7QUFMQTtBQUNFLDBCQUlGLGNBQUE7O29CQUFBO3NCQUFBLEFBQUk7QUFBSjtBQUFBLHlCQUFJLGNBQUEsWUFBUSxNQUFSLEFBQWE7b0JBQWI7c0JBQUE7QUFBQTtTQWJWLEFBQ0UsQUFZSSxBQUFJLEFBRVYsMEJBQUEsQUFBQzt3QkFDaUIsS0FBQSxBQUFLLE1BRHZCLEFBQzZCO29CQUQ3QjtzQkFoQkYsQUFDRSxBQWVBLEFBSUg7QUFKRztBQUNFOzs7OztFQXZDZ0IsZ0JBQU0sQSxBQThDOUI7O2tCQUFBLEFBQWUiLCJmaWxlIjoiRm9ybUlucHV0LmpzIiwic291cmNlUm9vdCI6Ii9Vc2Vycy9ELWxpc2gvRGVza3RvcC9uZXh0LXRvLWRvIn0=
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImNvbXBvbmVudHMvRm9ybUlucHV0LmpzIl0sIm5hbWVzIjpbIlJlYWN0IiwiVG9kb0xpc3QiLCJGb3JtSW5wdXQiLCJwcm9wcyIsImNvbnNvbGUiLCJsb2ciLCJzdGF0ZSIsIm1hc3RlclRvZG9MaXN0IiwiaGFuZGxlVG9kb1N1Ym1pc3Npb24iLCJiaW5kIiwiZSIsInByZXZlbnREZWZhdWx0IiwicmVmcyIsIl9uYW1lIiwiX2Rlc2NyaXB0aW9uIiwibmV3TWFzdGVyVG9kb0xpc3QiLCJzbGljZSIsInRhc2siLCJuYW1lIiwidmFsdWUiLCJkZXNjcmlwdGlvbiIsInB1c2giLCJzZXRTdGF0ZSIsIkNvbXBvbmVudCJdLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7QUFBQSxBQUFPOzs7O0FBQ1AsQUFBTyxBQUFjOzs7Ozs7Ozs7SUFFZixBO3FDQUNKOztxQkFBQSxBQUFZLE9BQU87d0NBQ2pCOztZQUFBLEFBQVEsSUFEUyxBQUNqQixBQUFZOzs0SUFESyxBQUVYLEFBQ047O1VBQUEsQUFBSztzQkFBTCxBQUFhLEFBQ0ssQUFFbEI7QUFIYSxBQUNYO1VBRUYsQUFBSyx1QkFBdUIsTUFBQSxBQUFLLHFCQUFMLEFBQTBCLEtBTnJDLEFBTWpCO1dBQ0Q7Ozs7O3lDLEFBRW9CLEdBQUcsQUFDdEI7UUFEc0IsQUFDdEIsQUFBRTtrQkFDOEIsS0FGVixBQUVlO1VBRmYsQUFFZCxjQUZjLEFBRWQ7VUFGYyxBQUVQLHFCQUZPLEFBRVAsQUFDZjs7VUFBTSxvQkFBb0IsS0FBQSxBQUFLLE1BQUwsQUFBVyxlQUFyQyxBQUEwQixBQUEwQixBQUNwRDtVQUFNO2NBQ0UsTUFESyxBQUNDLEFBQ1o7cUJBQWEsYUFGZixBQUFhLEFBRWUsQUFFNUI7QUFKYSxBQUNYO3dCQUdGLEFBQWtCLEtBQWxCLEFBQXVCLEFBQ3ZCO1dBQUEsQUFBSyxTQUFTLEVBQUUsZ0JBQWhCLEFBQWMsQUFBa0IsQUFDakM7Ozs7NkJBRVEsQUFDUDs2QkFDRSxjQUFBOztvQkFBQTtzQkFBQSxBQUNFO0FBREY7QUFBQSxPQUFBLGtCQUNFLGNBQUEsVUFBTSxVQUFVLEtBQWhCLEFBQXFCO29CQUFyQjtzQkFBQSxBQUNFO0FBREY7O2FBQ0UsQUFDTSxBQUNKO2NBRkYsQUFFTyxBQUNMO1lBSEYsQUFHSyxBQUNIO3FCQUpGLEFBSWM7b0JBSmQ7c0JBREYsQUFDRSxBQUtBO0FBTEE7QUFDRTs7b0JBSUY7c0JBTkYsQUFNRSxBQUNFO0FBREY7QUFBQTthQUNFLEFBQ00sQUFDSjtjQUZGLEFBRU8sQUFDTDtZQUhGLEFBR0ssQUFDSDtxQkFKRixBQUljO29CQUpkO3NCQVBKLEFBT0ksQUFLQTtBQUxBO0FBQ0UsMEJBSUYsY0FBQTs7b0JBQUE7c0JBQUEsQUFBSTtBQUFKO0FBQUEseUJBQUksY0FBQSxZQUFRLE1BQVIsQUFBYTtvQkFBYjtzQkFBQTtBQUFBO1NBYlYsQUFDRSxBQVlJLEFBQUksQUFFViwwQkFBQSxBQUFDO3dCQUNpQixLQUFBLEFBQUssTUFEdkIsQUFDNkI7b0JBRDdCO3NCQWhCRixBQUNFLEFBZUEsQUFJSDtBQUpHO0FBQ0U7Ozs7O0VBeENnQixnQkFBTSxBLEFBK0M5Qjs7a0JBQUEsQUFBZSIsImZpbGUiOiJGb3JtSW5wdXQuanMiLCJzb3VyY2VSb290IjoiL1VzZXJzL0QtbGlzaC9EZXNrdG9wL25leHQtdG8tZG8ifQ==

@@ -3,6 +3,7 @@ import TodoList from "./TodoList";
 
 class FormInput extends React.Component {
   constructor(props) {
+    console.log("test")
     super(props);
     this.state = {
       masterTodoList: []
